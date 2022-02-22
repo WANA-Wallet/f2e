@@ -1,0 +1,43 @@
+:root {
+    /* version 1.0 (for page 1) */
+    --brand: #968BF4;
+    --base: #201E2A;
+    --white: #FFFFFF;
+    --linear-c1: #9B84F1;
+    --linear-c2: #88A0FC;
+
+    --brand-rgb: 150, 139, 244;
+    --base-rgb: 32, 30, 42;
+    --white-rgb: 255, 255, 255;
+    --linear-c1-rgb: 155, 132, 241;
+    --linear-c2-rgb: 136, 150, 252;
+
+
+    /* version 2.0 (for page 2) */
+    --dark: #25294A;
+    --variant: #4550A6;
+}
+
+.bg-brand {
+    background-color: rgba(var(--brand-rgb), 1) !important;
+}
+
+.bg-base {
+    background-color: rgba(var(--base-rgb), 1) !important;
+}
+
+.bg-white {
+    background-color: rgba(var(--white-rgb), 1) !important;
+}
+
+.text-brand {
+    color: rgba(var(--brand-rgb), 1) !important;
+}
+
+.text-base {
+    color: rgba(var(--base-rgb), 1) !important;
+}
+
+.text-white {
+    color: rgba(var(--white-rgb), 1) !important;
+}
