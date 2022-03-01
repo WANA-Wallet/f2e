@@ -41,3 +41,7 @@
 .text-white {
     color: rgba(var(--white-rgb), 1) !important;
 }
+
+.footer{
+    background-color: #443750;
+}
