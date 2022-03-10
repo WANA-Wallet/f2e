@@ -3459,6 +3459,12 @@ textarea.form-control-lg {
   color: #6c757d;
 }
 
+.btn-xxl, .btn-group-lg > .btn {
+  padding: 1rem 3.5rem;
+  font-size: 2rem;
+  border-radius: 1.8rem;
+}
+
 .btn-lg, .btn-group-lg > .btn {
   padding: 0.5rem 1rem;
   font-size: 1.25rem;
