@@ -15,7 +15,7 @@
 <body class="h-100">
 
 <!-- 第一部分 header navbar -->
-<nav class="navbar navbar-expand-lg bg-base">
+<nav class="container-fluid navbar navbar-expand-lg bg-base">
     <div class="container">
         <div class="row align-items-center w-100 bg-base">
             <div class="col-12 col-md-9">
@@ -50,34 +50,34 @@
     </div>
 </nav>
 
-
 <!-- 第二部分 Join discord -->
-<div class="full-layout bg-full brand-animation" style="background-image: url('assets/image/test-image.png')">
+<div class="container-fluid full-layout bg-full brand-animation" style="background-image: url('assets/image/test-image.png')">
     <!-- 品牌動圖 -->
     <div class="join-discord-btn d-flex justify-content-center">
-        <div class="btn btn-primary btn-xxl bg-primary-linear border-0">
+        <div class="btn btn-primary btn-xxl bg-brand-linear border-0">
             <a href="https://discord.com/channels/942427470165061673/942698736084213802" class="text-white text-decoration-none">JOIN DISCORD</a>
         </div>
     </div>
 </div>
-<!-- 第三部分 Mint Coming soon... -->
-<div class="mint-coming-soon">
-   
-        <h3 class ="text-white">???/???</h3>
-        <a class="text-white">Mint Comint soon...</a>
 
-    
+<!-- 第三部分 Mint Coming soon... -->
+<div class="container-fluid d-flex justify-content-center mint-coming-soon-box">
+    <div class="col-10 bg-base border-white mint-coming-soon">
+        <h3 class="text-white h1">???/???</h3>
+        <a href="" class="text-white">Mint Coming Soon...</a>
+    </div>
 </div>
+
 <!-- 第四部分 嘿，一起拯救WANA星球吧！ -->
-<div class="saveplanet">
+<div class="container-fluid saveplanet">
     <div class="row align-items-center">
         <h1 class="text-white">嘿，一起拯救WANA星球吧！</h1>
     </div>
-    
+
 </div>
 
 <!-- 第五部分 A&N-->
-<div class="AN">
+<div class="container-fluid AN">
     <canvas id="myCanvas" width="1000" height="100" style="border:1px solid #FFFFFF;"></canvas>
     <canvas id="myCanvas" width="1000" height="100" style="border:1px solid #FFFFFF;"></canvas>
     <canvas id="myCanvas" width="1000" height="100" style="border:1px solid #FFFFFF"></canvas>
@@ -86,36 +86,39 @@
 
 
 <!-- 第六部分 成為家族中的一員-->
-<div class="family">
+<div class="container-fluid family">
     <h1>成為家族中的一員</h1>
 </div>
 <!-- 第七部分 人物區-->
-<div class="figure">
-    <img src="assets/logo/LOGO-W.png" height="80" width="80" alt="WANA-Logo" />
+<div class="container-fluid">
+    <div class="figure">
+        <img src="assets/logo/LOGO-W.png" height="80" width="80" alt="WANA-Logo" />
+    </div>
+    <div class="figure">
+        <img src="assets/logo/LOGO-W.png" height="80" width="80" alt="WANA-Logo" />
+    </div>
+    <div class="figure">
+        <img src="assets/logo/LOGO-W.png" height="80" width="80" alt="WANA-Logo" />
+    </div>
+    <div class="figure">
+        <img src="assets/logo/LOGO-W.png" height="80" width="80" alt="WANA-Logo" />
+    </div>
+    <div class="figure">
+        <img src="assets/logo/LOGO-W.png" height="80" width="80" alt="WANA-Logo" />
+    </div>
+    <div class="figure">
+        <img src="assets/logo/LOGO-W.png" height="80" width="80" alt="WANA-Logo" />
+    </div>
+    <div class="figure">
+        <img src="assets/logo/LOGO-W.png" height="80" width="80" alt="WANA-Logo" />
+    </div>
+    <div class="figure">
+        <img src="assets/logo/LOGO-W.png" height="80" width="80" alt="WANA-Logo" />
+    </div>
 </div>
-<div class="figure">
-    <img src="assets/logo/LOGO-W.png" height="80" width="80" alt="WANA-Logo" />
-</div>
-<div class="figure">
-    <img src="assets/logo/LOGO-W.png" height="80" width="80" alt="WANA-Logo" />
-</div>
-<div class="figure">
-    <img src="assets/logo/LOGO-W.png" height="80" width="80" alt="WANA-Logo" />
-</div>
-<div class="figure">
-    <img src="assets/logo/LOGO-W.png" height="80" width="80" alt="WANA-Logo" />
-</div>
-<div class="figure">
-    <img src="assets/logo/LOGO-W.png" height="80" width="80" alt="WANA-Logo" />
-</div>
-<div class="figure">
-    <img src="assets/logo/LOGO-W.png" height="80" width="80" alt="WANA-Logo" />
-</div>
-<div class="figure">
-    <img src="assets/logo/LOGO-W.png" height="80" width="80" alt="WANA-Logo" />
-</div>
+
 <!-- 第八部分 怎麼加入-->
-<canvas class="howtojoin" id="howtojoin"></canvas>
+<canvas class="container-fluid howtojoin" id="howtojoin"></canvas>
 <script>
     var c = document.getElementById("howtojoin");
     var ctx = c.getContext("2d");
@@ -138,7 +141,7 @@
 <!-- 第二二部分 成為家族中的一員-->
 <!-- 第二三部分 成為家族中的一員-->
 <!-- 第二四部分 FAQ-->
-<div class="faq">
+<div class="container-fluid faq">
     <h1>FAQ</h1>
 </div>
 <!-- 第二五部分 成為家族中的一員-->
@@ -148,7 +151,7 @@
 
 </body>
 <footer>
-    <nav class="footer">
+    <nav class="container-fluid footer">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-12 col-md-9">
@@ -158,7 +161,7 @@
                             <!-- 原始圖的3/5寬高 -->
                             <img src="assets/logo/LOGO-W.png" height="48" width="165" alt="WANA-Logo" />
                         </a>
-    
+
                         <div class="d-flex flex-row align-items-center">
                             <a class="nav-link text-white" href="#">About</a>
                             <a class="nav-link text-white" href="#">Roadmap</a>
@@ -182,7 +185,7 @@
                 <div class="row align-items-center">
                     <a class ="text-white">@ 2022 WANA</a>
                 </div>
-            </div> 
+            </div>
         </div>
     </nav>
 </footer>

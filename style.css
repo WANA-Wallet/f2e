@@ -22,9 +22,14 @@
     /*transition-duration: 0.4s;*/
 }
 
-.mint-coming-soon {
-    background-color: rgba(var(--base-rgb), 1) !important;
-    text-align: center;
+.mint-coming-soon-box {
+    position: relative;
+    z-index: 1;
+    margin: -5rem;
+}
+
+.mint-coming-soon{
+    border-radius: 1.2rem 1.2rem 0 0;
 }
 
 .saveplanet {

@@ -22,16 +22,16 @@
     background-color: rgba(var(--brand-rgb), 1) !important;
 }
 
+.bg-brand-linear {
+    background: linear-gradient(90deg, var(--linear-c2), var(--linear-c1)); !important;
+}
+
 .bg-base {
     background-color: rgba(var(--base-rgb), 1) !important;
 }
 
 .bg-white {
     background-color: rgba(var(--white-rgb), 1) !important;
-}
-
-.bg-primary-linear {
-    background: linear-gradient(90deg, var(--linear-c2), var(--linear-c1)); !important;
 }
 
 .text-brand {
