@@ -46,8 +46,28 @@
     color: rgba(var(--white-rgb), 1) !important;
 }
 
+.full-layout {
+    height: calc(100% - 74px); /* 滿版高度為100% 扣 header或footer高度 */
+    width: 100%; /* 寬度滿版 */
+}
+
+.bg-full {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner-layout {
+    border-radius: 3rem;
+    height: 400px;
+}
+
 .move-up-5 {
     position: relative;
     z-index: 1;
     margin-top: -5rem;
+}
+
+.banner-text {
+    font-size: 4rem;
 }
