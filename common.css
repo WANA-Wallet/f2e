@@ -45,3 +45,9 @@
 .text-white {
     color: rgba(var(--white-rgb), 1) !important;
 }
+
+.move-up-5 {
+    position: relative;
+    z-index: 1;
+    margin-top: -5rem;
+}
