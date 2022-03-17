@@ -57,9 +57,32 @@
     background-repeat: no-repeat;
 }
 
+/* banner */
 .banner-layout {
-    border-radius: 3rem;
-    height: 400px;
+    border-radius: 1rem;
+    height: 30vh;
+}
+@media (min-width: 576px) {
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 992px) {
+    .banner-layout {
+        border-radius: 2rem;
+        height: 40vh;
+    }
+}
+@media (min-width: 1200px) {
+    .banner-layout {
+        border-radius: 3rem;
+        height: 50vh;
+    }
+}
+@media (min-width: 1400px) {
+}
+
+.banner-text {
+    font-size: 4rem;
 }
 
 .move-up-5 {
@@ -68,6 +91,6 @@
     margin-top: -5rem;
 }
 
-.banner-text {
-    font-size: 4rem;
+.animate-on-hover {
+    cursor: pointer;
 }

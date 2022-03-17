@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="common.css">
     <link rel="stylesheet" href="style.css">
     <script src="assets/lib/bootstrap/bootstrap.bundle.js"></script>
+    <script src="assets/lib/jquery.js"></script>
     <script src="assets/lib/aos/aos.js"></script>
 </head>
 <body class="h-100 bg-base">
@@ -77,11 +78,13 @@
 </div>
 
 <!-- 第五部分 A&N-->
+<!-- TODO: 手機版 & 補上文字 -->
+<!-- TODO: 手機版沒有hover，希望拉到可視範圍再跑圖 -->
 <div class="container text-center">
-    <div class="banner-layout bg-full mb-5" style="background-image: url('assets/image/banner.gif')"></div>
-    <div class="banner-layout bg-full mb-5" style="background-image: url('assets/image/fly.webp')"></div>
-    <div class="banner-layout bg-full mb-5" style="background-image: url('assets/image/banner.gif')"></div>
-    <div class="banner-layout bg-full mb-5" style="background-image: url('assets/image/fly.webp')"></div>
+    <div class="animate-on-hover banner-layout bg-full mb-5" style="background-image: url('assets/image/Animate_1.png')"></div>
+    <div class="animate-on-hover banner-layout bg-full mb-5" style="background-image: url('assets/image/Animate_2.png')"></div>
+    <div class="animate-on-hover banner-layout bg-full mb-5" style="background-image: url('assets/image/Animate_3.png')"></div>
+    <div class="animate-on-hover banner-layout bg-full mb-5" style="background-image: url('assets/image/Animate_4.gif')"></div>
 </div>
 
 
@@ -190,6 +193,23 @@
     </nav>
 </footer>
 </html>
+
+<script>
+    // hover動圖效果
+    // TODO: click、hover出去再進來時，重load gif圖 (方法: 改變Image src)
+    $(function() {
+        $('.animate-on-hover').on('click mouseover').hover(
+            function() {
+                let bgImgUrl = $(this).css('background-image');
+                $(this).css('background-image', bgImgUrl.replace('png', 'gif'));
+            },
+            function() {
+                let bgImgUrl = $(this).css('background-image');
+                $(this).css('background-image', bgImgUrl.replace('gif', 'png'));
+            }
+        );
+    });
+</script>
 
 <!-- Initialize AOS 放最後 -->
 <script>
