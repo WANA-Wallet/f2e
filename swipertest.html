@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="assets/lib/swiper/swiper-bundle.css">
+    <script src="assets/lib/swiper/swiper-bundle.js"></script>
+    <style>
+    </style>
+</head>
+<body>
+<div class="swiper">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="assets/image/try1.png" height="200"/></div>
+        <div class="swiper-slide"><img src="assets/image/try2.png" height="200"/></div>
+        <div class="swiper-slide"><img src="assets/image/try3.png" height="200"/></div>
+        <div class="swiper-slide"><img src="assets/image/try4.png" height="200"/></div>
+        <div class="swiper-slide"><img src="assets/image/try5.png" height="200"/></div>
+    </div>
+    <div class="swiper-pagination"></div>
+
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+
+    <div class="swiper-scrollbar"></div>
+</div>
+
+<script>
+    let swiper = new Swiper(".swiper", {
+        breakpoints: {
+            360: {
+                slidesPerView: 2,
+                spaceBetween: 100,
+            },
+            576: {
+                slidesPerView: 3,
+                spaceBetween: 150,
+            },
+            992: {
+                slidesPerView: 4,
+                spaceBetween: 150,
+            },
+            1200: {
+                slidesPerView: 5,
+                spaceBetween: 200,
+            },
+            1400: {
+                slidesPerView: 6,
+                spaceBetween: 250,
+            }
+        },
+        autoHeight: true,
+        speed: 2000,
+        allowSlideNext: true,
+        allowSlidePrev: true,
+        centeredSlides: true,
+        centerInsufficientSlides: true,
+        loop: true,
+        grabCursor: true,
+        autoplay: {
+            delay: 0,
+            disableOnInteraction: false,
+            pauseOnMouseEnter: true,
+        },
+    });
+</script>
+</body>
+</html>
