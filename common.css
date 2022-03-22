@@ -141,3 +141,28 @@
     transition-duration: 750ms;
     z-index: 1;
 }
+.gallery {
+    
+    width: 180px;
+  }
+  
+  
+  
+  .gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .desc {
+    padding: 15px;
+    text-align: center;
+    color: white;
+  }
+
+
+  .answer{
+      color: black;
+      background-color: white;
+      border: 1px solid black;
+      
+  }
