@@ -17,6 +17,10 @@
     border-radius: 6px;
 }
 
+.faq-box {
+    border-radius: 2rem;
+}
+
 .saveplanet {
     background-color: rgba(var(--base-rgb), 1) !important;
     text-align: center;
@@ -36,12 +40,7 @@
     text-align: center;
 }
 
-.faq {
-    text-align: center;
-    color: white;
-    background-color: black;
-}
-
 .footer {
     background-color: #443750;
 }
+
