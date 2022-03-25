@@ -75,13 +75,13 @@
 @media (min-width: 992px) {
     .banner-layout {
         border-radius: 2rem;
-        height: 40vh;
+        height: 32vh;
     }
 }
 @media (min-width: 1200px) {
     .banner-layout {
         border-radius: 3rem;
-        height: 50vh;
+        height: 40vh;
     }
 }
 @media (min-width: 1400px) {
