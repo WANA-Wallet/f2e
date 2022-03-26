@@ -15,7 +15,7 @@ $(function () {
 });
 
 // <!-- 第七部分 人物區 swiper -->
-let swiper = new Swiper(".swiper", {
+let swiperCharacter = new Swiper(".swiper.character", {
     breakpoints: {
         360: {
             slidesPerView: 2,
@@ -46,6 +46,7 @@ let swiper = new Swiper(".swiper", {
     centerInsufficientSlides: true,
     loop: true,
     grabCursor: true,
+    simulateTouch: true,
     autoplay: {
         delay: 500,
         disableOnInteraction: false,
@@ -53,6 +54,40 @@ let swiper = new Swiper(".swiper", {
     },
 });
 
+<!-- 第二三部分 文章滑動區塊 swiper -->
+let swiperArticle = new Swiper(".swiper.article", {
+    breakpoints: {
+        360: {
+            slidesPerView: 1,
+            spaceBetween: 100,
+        },
+        576: {
+            slidesPerView: 2,
+            spaceBetween: 50,
+        },
+        768: {
+            slidesPerView: 3,
+            spaceBetween: 50,
+        },
+    },
+    stretch: 5000,
+    autoHeight: true,
+    speed: 1000,
+    allowSlideNext: true,
+    allowSlidePrev: true,
+    centeredSlides: false,
+    centerInsufficientSlides: false,
+    loop: true,
+    grabCursor: false,
+    simulateTouch: true,
+    autoplay: false,
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+    allowTouchMove: true,
+    preventClicks: true,
+});
 
 // AOS 捲動動畫效果
 AOS.init();
