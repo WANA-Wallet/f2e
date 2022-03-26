@@ -71,6 +71,7 @@ let swiperArticle = new Swiper(".swiper.article", {
         },
     },
     autoHeight: true,
+    resizeObserver: true,
     speed: 1000,
     allowSlideNext: true,
     allowSlidePrev: true,
