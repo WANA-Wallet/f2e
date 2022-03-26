@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW" class="h-100">
+<head>
+  <title>WANA</title>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+  <link rel="icon" type="image/x-icon" href="assets/logo/WANA_LOGO.png">
+  <link rel="stylesheet" href="assets/lib/bootstrap/bootstrap.css">
+  <link rel="stylesheet" href="assets/lib/swiper/swiper-bundle.css">
+  <link rel="stylesheet" href="assets/lib/aos/aos.css">
+  <link rel="stylesheet" href="common.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="assets/lib/bootstrap/bootstrap.bundle.js"></script>
+  <script src="assets/lib/swiper/swiper-bundle.js"></script>
+  <script src="assets/lib/jquery.js"></script>
+  <script src="assets/lib/aos/aos.js"></script>
+</head>
+<body class="h-100 bg-base">
+
+<!-- 第一部分 header navbar -->
+<nav class="container-fluid navbar navbar-expand-lg bg-base">
+  <div class="container">
+    <div class="row align-items-center w-100 bg-base">
+      <div class="col-12 col-md-9">
+        <div class="d-flex flex-row">
+          <a href="#" class="navbar-brand">
+            <h1 class="d-none">WANA</h1>
+            <img src="assets/logo/WANA_LOGO.png" height="48" alt="WANA-Logo" />
+          </a>
+
+          <div class="d-flex flex-row align-items-center">
+            <a class="nav-link text-white" href="#">About</a>
+            <a class="nav-link text-white" href="#">Roadmap</a>
+            <a class="nav-link text-white" href="#">Team</a>
+            <a class="nav-link text-white" href="#">FAQ</a>
+            <a class="nav-link disabled" href="#">Collection</a>
+            <a class="nav-link disabled" href="#">Mint</a>
+            <a class="nav-link disabled" href="#">MyWANA</a>
+          </div>
+        </div>
+
+      </div>
+      <div class="col-12 col-md-3">
+        <div class="d-flex flex-row">
+          <a class="nav-link text-white" href="https://www.instagram.com/wananft/" target="_blank"><img src="assets/icon/InstagramLogo.png" height="32" width="32" alt="instagram"/></a>
+          <a class="nav-link text-white" href="https://discord.com/channels/942427470165061673/942698736084213802" target="_blank"><img src="assets/icon/DiscordLogo.png" height="32" width="32" alt="discord"/></a>
+          <a class="nav-link text-white" href="https://twitter.com/wananft" target="_blank"><img src="assets/icon/TwitterLogo.png" height="32" width="32" alt="twitter"/></a>
+          <a class="nav-link text-white" href="https://www.facebook.com/wananft" target="_blank"><img src="assets/icon/FacebookLogo.png" height="32" width="32" alt="facebook"/></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- 第二部分 Join discord -->
+<div class="container-fluid full-layout bg-full position-relative" style="background-image: url('assets/image/main.gif')">
+  <!-- 品牌動圖 -->
+  <div class="join-discord-btn d-flex justify-content-center">
+    <div class="btn btn-primary btn-xxl bg-brand-linear border-0">
+      <a href="https://discord.com/channels/942427470165061673/942698736084213802" class="text-white text-decoration-none">JOIN DISCORD</a>
+    </div>
+  </div>
+</div>
+
+<!-- 第三部分 Mint Coming soon... -->
+<div class="container d-flex justify-content-center move-up-5">
+  <div class="col-10 bg-base mint-coming-soon">
+    <h3 class="text-white h1">0 / 999</h3>
+    <div class="text-white mb-2 h4 py-3">Mint Coming Soon...</div>
+    <div class="progress">
+      <div class="progress-bar mint-progress-bar bg-brand" style="width: 1%"></div>
+    </div>
+  </div>
+</div>
+
+<!-- 第四部分 嘿，一起拯救WANA星球吧！ -->
+<div class="container-fluid text-center">
+  <h2 class="text-white banner-text-lg py-5">嘿，一起拯救WANA星球吧！</h2>
+</div>
+
+<!-- 第五部分 A&N-->
+<!-- TODO: 切換時加上transition動畫效果看起來平滑一些 -->
+<!-- TODO: 手機版 & 補上文字 -->
+<!-- TODO: 手機版沒有hover，希望拉到可視範圍再跑圖 -->
+<div class="container text-center">
+  <div class="animate-on-hover banner-layout bg-full mb-5" style="background-image: url('assets/image/Animate_1.png')"></div>
+  <div class="animate-on-hover banner-layout bg-full mb-5" style="background-image: url('assets/image/Animate_2.png')"></div>
+  <div class="animate-on-hover banner-layout bg-full mb-5" style="background-image: url('assets/image/Animate_3.png')"></div>
+  <div class="animate-on-hover banner-layout bg-full mb-5" style="background-image: url('assets/image/Animate_4.gif')"></div>
+</div>
+
+
+<!-- 第六部分 成為家族中的一員-->
+<div class="container-fluid text-center py-5">
+  <h2 class="text-white banner-text-lg py-5">成為家族中的一員</h2>
+</div>
+<!-- 第七部分 人物區-->
+<div class="swiper">
+  <div class="swiper-wrapper py-5">
+    <div class="swiper-slide"><img src="assets/image/try1.png" class="swiper-img"/></div>
+    <div class="swiper-slide"><img src="assets/image/try2.png" class="swiper-img"/></div>
+    <div class="swiper-slide"><img src="assets/image/try3.png" class="swiper-img"/></div>
+    <div class="swiper-slide"><img src="assets/image/try4.png" class="swiper-img"/></div>
+    <div class="swiper-slide"><img src="assets/image/try5.png" class="swiper-img"/></div>
+  </div>
+</div>
+
+
+<!-- 第八部分 怎麼加入-->
+<!-- TODO 下拉三角形與作動 -->
+<div class="d-flex justify-content-center mt-5 pt-5">
+  <div class="btn btn-primary btn-xxl bg-brand-linear border-0">
+    <a href="#" class="text-white text-decoration-none px-2">怎麼加入</a>
+  </div>
+</div>
+
+<!-- 第九部分 成為WANA Pixel超人後，你擁有的超能力！獲得家族皮膚，跟你的家族夥伴一同奮戰！-->
+<div class="container-fluid text-center py-5">
+  <h3 class="text-white banner-text-lg">
+    成為 WANA Pixel 超能人後， <br>
+    你擁有的能力！</h3>
+  <h3 class="text-white banner-text-md py-5">
+    獲得家族皮膚，跟你的家族夥伴一同奮戰！</h3>
+</div>
+
+<!-- 第十部分 五角形的圖、第十一部分 金木水火土-->
+<div class="container">
+  <div class="row align-items-center">
+    <div class="col-6">
+      <img src="assets/image/FivePhases.png" class="img-fluid"/>
+    </div>
+    <div class="col-6">
+      <div class="container-fluid text-center py-5">
+        <h3 class="text-white banner-text-md">金、木、水、火、土</h3>
+        <p class="text-white banner-text-sm py-5">
+          說明文字說明文字說明文字說明文字說明文字說明文字說明文字說明文字說明文字說明文字說明文字說明文字說明文字說明文字說明文字說明文字說明文字說明文字說明文字說明文字</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- 第十二部分 創造屬於你的Pixel超能人-->
+<!-- TODO 背景底圖漸層 -->
+<div class="container-fluid text-center py-5">
+  <h3 class="text-white banner-text-lg py-5">
+    更換配件，<br>
+    創造屬於你的Pixel超能人。</h3>
+</div>
+
+<!-- 第十三部分 成為家族中的一員-->
+<!-- 第十四部分 成為家族中的一員-->
+<!-- 第十五部分 成為家族中的一員-->
+
+
+<!-- 第十六部分 配件稀有度-->
+<div class="container-fluid text-center py-5">
+  <h2 class="text-white banner-text-lg py-5">配件稀有度</h2>
+</div>
+
+<!-- 第十七部分 配件金字塔-->
+<div class="container-fluid full-layout bg-contain" style="background-image: url('assets/image/pyramid.png')"></div>
+
+<!-- 第十八部分 Roadmap、第十九部分、第二十部分、第二一部分-->
+<div class="container-fluid text-center py-5">
+  <h2 class="text-white banner-text-lg py-5">Roadmap</h2>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-10">
+      <div class="row align-items-center">
+        <div class="col offset-1">
+          <img src="assets/image/phase1.png" height="127" width="134" />
+        </div>
+        <div class="col">
+          <h3 class="text-white banner-text-md d-inline py-5">Phase 1</h3>
+        </div>
+      </div>
+    </div>
+    <div class="col-10 offset-1">
+      <p class="text-white banner-text-sm py-5">Mint 數量1000，社群會員社群會員享有投票權利，可決定 WANA 配件 2.0 樣式走向。加入社群限制：要擁有一隻人像（ 含皮膚、髮、眼、身體、背景 ）</p>
+    </div>
+
+    <div class="col-10">
+      <div class="row align-items-center">
+        <div class="col">
+          <img src="assets/image/phase2.png" height="263" width="213" />
+        </div>
+        <div class="col">
+          <h3 class="text-white banner-text-md d-inline py-5">Phase 2</h3>
+        </div>
+      </div>
+    </div>
+    <div class="col-10 offset-1">
+      <p class="text-white banner-text-sm py-5">Mint 數量1000，社群會員社群會員享有投票權利，可決定 WANA 配件 2.0 樣式走向。加入社群限制：要擁有一隻人像（ 含皮膚、髮、眼、身體、背景 ）Mint 數量1000，社群會員社群會員享有投票權利，可決定 WANA 配件 2.0 樣式走向。加入社群限制：要擁有一隻人像（ 含皮膚、髮、眼、身體、背景 ）  </p>
+    </div>
+
+    <div class="col-10">
+      <div class="row align-items-center">
+        <div class="col">
+          <img src="assets/image/phase3.png" height="242" width="330" />
+        </div>
+        <div class="col">
+          <h3 class="text-white banner-text-md d-inline py-5">Phase 3</h3>
+        </div>
+      </div>
+    </div>
+    <div class="col-10 offset-1">
+      <p class="text-white banner-text-sm py-5">主打永續經營，買家持有 WANA NFT ，獲得利潤後，系統算利回饋給買家（稀有度越高回饋更高），獲利發送至 WANA Wallet</p>
+    </div>
+  </div>
+</div>
+
+<!-- 第二二部分 超能人新手村-->
+<div class="container-fluid text-center py-5">
+  <h2 class="text-white banner-text-lg py-5">超能人新手村</h2>
+</div>
+<!-- 第二三部分 如何入金-->
+<div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="assets/image/try1.png" style="width:33%">
+    <br>
+    <div class="text">如何入金？</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="assets/image/try2.png" style="width:33%">
+    <br>
+    <div class="text">如何入金？</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="assets/image/try3.png" style="width:33%">
+    <br>
+    <div class="text">如何入金？</div>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+
+<script>
+  var slideIndex = 1;
+  showSlides(slideIndex);
+
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+  }
+</script>
+</div>
+
+
+
+
+<!-- 第二四部分 FAQ-->
+<div class="container-fluid text-center py-5">
+  <h2 class="text-white banner-text-lg">FAQ</h2>
+</div>
+<!-- 第二五部分 answer-->
+<div class="container">
+  <div class="row justify-content-around text-center mb-3">
+    <div class="col-12 col-lg-6 my-4">
+      <div class="bg-white faq-box py-4 mx-4">
+        <h3 class="text-base banner-text-md d-inline">Q1. 關於我們？</h3>
+      </div>
+    </div>
+    <div class="col-12 col-lg-6 my-4">
+      <div class="bg-white faq-box py-4 mx-4">
+        <h3 class="text-base banner-text-md d-inline">Q1. 關於我們？</h3>
+      </div>
+    </div>
+  </div>
+  <div class="row justify-content-around text-center mb-3">
+    <div class="col-12 col-lg-6 my-4">
+      <div class="bg-white faq-box py-4 mx-4">
+        <h3 class="text-base banner-text-md d-inline">Q1. 關於我們？</h3>
+      </div>
+    </div>
+    <div class="col-12 col-lg-6 my-4">
+      <div class="bg-white faq-box py-4 mx-4">
+        <h3 class="text-base banner-text-md d-inline">Q1. 關於我們？</h3>
+      </div>
+    </div>
+  </div>
+  <div class="row justify-content-around text-center mb-3">
+    <div class="col-12 col-lg-6 my-4">
+      <div class="bg-white faq-box py-4 mx-4">
+        <h3 class="text-base banner-text-md d-inline">Q1. 關於我們？</h3>
+      </div>
+    </div>
+    <div class="col-12 col-lg-6 my-4">
+      <div class="bg-white faq-box py-4 mx-4">
+        <h3 class="text-base banner-text-md d-inline">Q1. 關於我們？</h3>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+<footer>
+  <nav class="container-fluid footer">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-12 col-md-9">
+          <div class="d-flex flex-row">
+            <a href="#" class="footer-brand">
+              <h1 class="d-none">WANA</h1>
+              <img src="assets/logo/WANA_LOGO.png" height="48" alt="WANA-Logo" />
+            </a>
+
+            <div class="d-flex flex-row align-items-center">
+              <a class="nav-link text-white" href="#">About</a>
+              <a class="nav-link text-white" href="#">Roadmap</a>
+              <a class="nav-link text-white" href="#">Team</a>
+              <a class="nav-link text-white" href="#">FAQ</a>
+              <a class="nav-link text-white" href="#">Collection</a>
+              <a class="nav-link text-white" href="#">Mint</a>
+              <a class="nav-link text-white" href="#">MyWANA</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-3">
+          <div class="d-flex flex-row">
+            <a class="nav-link text-white" href="https://www.instagram.com/wananft/" target="_blank"><img src="assets/icon/InstagramLogo.png" height="32" width="32" alt="instagram"/></a>
+            <a class="nav-link text-white" href="https://discord.com/channels/942427470165061673/942698736084213802" target="_blank"><img src="assets/icon/DiscordLogo.png" height="32" width="32" alt="discord"/></a>
+            <a class="nav-link text-white" href="https://twitter.com/wananft" target="_blank"><img src="assets/icon/TwitterLogo.png" height="32" width="32" alt="twitter"/></a>
+            <a class="nav-link text-white" href="https://www.facebook.com/wananft" target="_blank"><img src="assets/icon/FacebookLogo.png" height="32" width="32" alt="facebook"/></a>
+          </div>
+        </div>
+        <hr style color=white, size="2">
+        <div class="row align-items-center">
+          <a class ="text-white">@ 2022 WANA</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+</footer>
+
+
+
+<style>
+  body{
+    background-color: #cc9ad6;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  .dress > img {
+    position: absolute;
+    margin-left: 15%;
+    display:inline-block;
+    height:100%;
+  }
+  button{
+    margin-top:20%;
+  }
+  ul{
+    list-style-type: none;
+    display:inline-block;
+  }
+  character{
+    z-index: -1000;
+  }
+  .shirt{
+    visibility:hidden;
+    z-index: 2;
+  }
+  .pant{
+    visibility:hidden;
+    z-index: 1;
+  }
+</style>
+<ul>
+  <li><button class="btn btn-default" id="shirt_button" type="button" >top</button></li>
+  <li><button class="btn btn-default" id="pant_button" type="button">bottom</button></li>
+</ul>
+
+<div class="container dress">
+  <img id="character" src="https://s-media-cache-ak0.pinimg.com/originals/d5/19/f0/d519f0f021325f16e85a193ec3718130.png" />
+  <img id="top1" class="shirt" src="https://s-media-cache-ak0.pinimg.com/originals/25/43/a9/2543a9ef622c17ca0ccd1fae4441a8ac.png" />
+  <img id="top2" class="shirt" src="https://s-media-cache-ak0.pinimg.com/originals/05/b5/56/05b556aee24a79e17050270c7274de8c.png" />
+  <img id="top3" class="shirt" src="https://s-media-cache-ak0.pinimg.com/originals/d7/5c/ba/d75cbab4c752bcd839098e7304fa449b.png" />
+  <img id="top4" class="shirt" src="https://s-media-cache-ak0.pinimg.com/originals/84/07/2f/84072f86cc9c7700367b958b1252527b.png" />
+  <img id="top5" class="shirt" src="https://s-media-cache-ak0.pinimg.com/originals/d3/72/cf/d372cf67ffa1073da171f6824ed30140.png" />
+  <img id="top6" class="shirt" src="https://s-media-cache-ak0.pinimg.com/originals/20/72/f6/2072f64b75fb5753a6b038312697fa0d.png" />
+  <img id="top7" class="shirt" src="https://s-media-cache-ak0.pinimg.com/originals/1f/86/b1/1f86b13b426f5ab1483326c97eaa962c.png" />
+  <img id="bottom1" class="pant" src="https://s-media-cache-ak0.pinimg.com/originals/b3/c2/4d/b3c24d75d647564cdaa1d85f854587ba.png" />
+  <img id="bottom2"  class="pant" src="https://s-media-cache-ak0.pinimg.com/originals/a5/3a/56/a53a562de60d53e341289584e585f776.png" />
+  <img id="bottom3" class="pant" src="https://s-media-cache-ak0.pinimg.com/originals/2b/26/3b/2b263b07bcdd3d2fafab6ec03402e255.png" />
+  <img id="bottom4" style="z-index: 3" class="pant" src="https://s-media-cache-ak0.pinimg.com/originals/dd/a6/d7/dda6d7944174edbd743d92360e2ef8f5.png" />
+  <img id="bottom5" class="pant" src="https://s-media-cache-ak0.pinimg.com/originals/94/c7/15/94c715a60995c215a74a2492a5bea344.png" />
+  <img id="bottom6" class="pant" src="https://s-media-cache-ak0.pinimg.com/originals/da/1a/16/da1a1609695435ddc106d4f8989f1535.png" />
+  <img id="bottom7" class="pant" src="https://s-media-cache-ak0.pinimg.com/originals/c3/78/78/c3787895d353d3b4d8534855ae0b1d83.png" />
+</div>
+<script>
+  $(document).ready(function(){
+    function ImageSwitcher(choices, i) {
+      i = 0;
+
+      this.Next = function() {
+        hide_current_image();
+        show_next_image();
+      }
+
+      var hide_current_image = function() {
+        if(choices){
+          choices[i].style.visibility = "hidden";
+          i += 1;
+        }
+      }
+      var show_next_image = function() {
+        if(choices){
+          if(i == (choices.length)) {
+            i = 0;
+          }
+          choices[i].style.visibility = "visible";
+        }
+      }
+    }
+
+    var pants = $(".pant");
+    var shirts = $(".shirt");
+    var backgrounds = $(".bg");
+
+    var shirt_picker = new ImageSwitcher(shirts);
+    document.getElementById("shirt_button").onclick = function() { shirt_picker.Next(); };
+
+    var pants_picker = new ImageSwitcher(pants);
+    document.getElementById("pant_button").onclick = function() {pants_picker.Next(); };
+
+    var bg_picker = new ImageSwitcher(backgrounds);
+    document.getElementById("bg_button").onclick = function() {bg_picker.Next(); };
+
+  });
+
+  $("#shirt_button").click(function(){
+    $("#shirt-menu").css("visibility", "visible"); });
+</script>
+
+</html>
+
+<script src="script.js"></script>
