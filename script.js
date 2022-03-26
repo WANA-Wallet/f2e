@@ -70,7 +70,6 @@ let swiperArticle = new Swiper(".swiper.article", {
             spaceBetween: 50,
         },
     },
-    stretch: 5000,
     autoHeight: true,
     speed: 1000,
     allowSlideNext: true,
