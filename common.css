@@ -74,7 +74,7 @@
 }
 
 .full-layout {
-    height: calc(100% - 74px); /* 滿版高度為100% 扣 header或footer高度 */
+    height: calc(100% - 86px); /* 滿版高度為100% 扣 header或footer高度 */
     width: 100%; /* 寬度滿版 */
 }
 
