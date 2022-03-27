@@ -63,6 +63,11 @@
     padding: 0;
     box-shadow: 0 0 0.8rem 0.1rem rgba(255, 255, 255, 0.2);
     border-radius: 2rem;
+    height: 100%;
+}
+
+.card-text{
+    height: 80px;
 }
 
 .article-image {
