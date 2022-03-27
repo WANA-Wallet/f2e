@@ -2,6 +2,8 @@
     /* version 1.0 (for page 1) */
     --brand: #968BF4;
     --base: #201E2A;
+    --dark: #25294A;
+    --variant: #4550A6;
     --white: #FFFFFF;
     --linear-brand-c1: #9B84F1;
     --linear-brand-c2: #88A0FC;
@@ -10,15 +12,13 @@
 
     --brand-rgb: 150, 139, 244;
     --base-rgb: 32, 30, 42;
+    --dark-rgb: 37, 41, 74;
+    --variant-rgb: 69, 80, 166;
     --white-rgb: 255, 255, 255;
     --linear-brand-c1-rgb: 155, 132, 241;
     --linear-brand-c2-rgb: 136, 150, 252;
     --linear-accessory-c1-rgb: 88, 91, 255;
     --linear-accessory-c2-rgb: 51, 52, 115;
-
-    /* version 2.0 (for page 2) */
-    --dark: #25294A;
-    --variant: #4550A6;
 }
 
 .bg-brand {
@@ -37,6 +37,10 @@
     background-color: rgba(var(--base-rgb), 1) !important;
 }
 
+.bg-dark {
+    background-color: rgba(var(--dark-rgb), 1) !important;
+}
+
 .bg-white {
     background-color: rgba(var(--white-rgb), 1) !important;
 }
@@ -53,11 +57,6 @@
     color: rgba(var(--white-rgb), 1) !important;
 }
 
-.full-layout {
-    height: calc(100% - 74px); /* 滿版高度為100% 扣 header或footer高度 */
-    width: 100%; /* 寬度滿版 */
-}
-
 .bg-full {
     background-size: cover;
     background-position: center;
@@ -68,6 +67,15 @@
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.radius-3 {
+    border-radius: 3rem;
+}
+
+.full-layout {
+    height: calc(100% - 74px); /* 滿版高度為100% 扣 header或footer高度 */
+    width: 100%; /* 寬度滿版 */
 }
 
 /* banner */
@@ -106,7 +114,7 @@
 
 .banner-text-sm {
     font-size: 1.5rem;
-    line-height: 2.2rem;
+    line-height: 2.4rem;
 }
 
 .banner-long-text {
@@ -213,31 +221,14 @@
     transition-duration: 750ms;
     z-index: 1;
 }
-.gallery {
-    
-    width: 180px;
-  }
-  
-  
-  
-  .gallery img {
-    width: 100%;
-    height: auto;
-  }
-  
-  .desc {
-    padding: 15px;
-    text-align: center;
-    color: white;
-  }
 
-  .answer{
-      color: black;
-      background-color: white;
-      border: 1px solid black;
-      
-  }
+.lighting-con {
+    box-shadow: 0 0 1rem 0.1rem rgba(255, 255, 255, 0.2);
+}
 
+.lighting-div {
+    box-shadow: 0 0 4rem 0.1rem rgba(255, 255, 255, 0.1);
+}
 
 /* Fading animation */
 .fade {
