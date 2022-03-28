@@ -230,6 +230,22 @@
     box-shadow: 0 0 4rem 0.1rem rgba(255, 255, 255, 0.1);
 }
 
+.enlarge-1x2 {
+    transform: scale(1.2);
+}
+
+.enlarge-1x5 {
+    transform: scale(1.5);
+}
+
+.enlarge-2x {
+    transform: scale(2.0);
+}
+
+.enlarge-3x {
+    transform: scale(3.0);
+}
+
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;

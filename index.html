@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
-    <meta name="description" content="BWANA! Create your own WAVATAR." />
-    <meta property="og:title" content="BWANA! Create your own WAVATAR." />
-     <meta property="og:image" content="https://wanawallet.co/assets/logo/WANA_LOGO.png">
+    <meta name="description" content="WANA! Create your own WAVATAR." />
+    <meta property="og:title" content="WANA! Create your own WAVATAR." />
+    <meta property="og:image" content="https://wanawallet.co/assets/logo/WANA_LOGO.png">
     <link rel="icon" type="image/x-icon" href="assets/logo/WANA_LOGO.png">
     <link rel="stylesheet" href="assets/lib/bootstrap/bootstrap.css">
     <link rel="stylesheet" href="assets/lib/swiper/swiper-bundle.css">
@@ -22,16 +22,16 @@
 <body class="h-100 bg-base">
 
 <!-- 第一部分 header navbar -->
-<nav class="container-fluid navbar navbar-expand-lg bg-base">
-    <div class="container">
-        <div class="row align-items-center w-100 bg-base">
+<nav class="navbar navbar-expand-xl navbar-dark bg-base">
+    <div class="container d-none d-xl-block align-items-center w-100 bg-base">
+        <div class="row">
             <div class="col-12 col-md-9">
                 <div class="d-flex flex-row">
                     <a href="#" class="navbar-brand">
                         <h1 class="d-none">WANA</h1>
                         <img src="assets/logo/LOGO-W.png" height="48" alt="WANA-Logo" />
                     </a>
-
+            
                     <div class="d-flex flex-row align-items-center">
                         <a class="nav-link text-white" href="#about">About</a>
                         <a class="nav-link text-white" href="#roadmap">Roadmap</a>
@@ -42,7 +42,7 @@
                         <a class="nav-link disabled" href="#">MyWANA</a>
                     </div>
                 </div>
-
+    
             </div>
             <div class="col-12 col-md-3">
                 <div class="d-flex flex-row">
@@ -53,6 +53,16 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="row d-block d-xl-none">
+        <div class="col-12 collapse bg-brand" id="hamburgerMenu">
+            <!-- TODO MENU選單 -->
+            <a href="#" class="navbar-brand">
+                <img src="assets/logo/LOGO-W.png" alt="WANA-Logo" />
+            </a>
+        </div>
+        <a href="#hamburgerMenu" data-bs-toggle="collapse" data-bs-target="#hamburgerMenu"><span class="navbar-toggler-icon hamburger-menu"></span></a>
     </div>
 </nav>
 
