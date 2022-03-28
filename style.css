@@ -18,11 +18,27 @@
     border: solid 1px rgba(var(--white-rgb), 0.1);
     z-index: 1;
 }
+.menu {
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+}
+.footer-menu {
+    font-size: 0.9rem;
+    line-height: 1.45rem;
+}
 @media (min-width: 576px) {
     .hamburger-menu {
         top: 1.5rem;
         right: 1.5rem;
         padding: 1.8rem;
+    }
+    .menu {
+        font-size: 2.5rem;
+        line-height: 4rem;
+    }
+    .footer-menu {
+        font-size: 1.5em;
+        line-height: 2.4rem;
     }
 }
 @media (min-width: 768px) {
@@ -112,7 +128,4 @@
     text-align: center;
 }
 
-.footer {
-    background-color: #443750;
-}
 

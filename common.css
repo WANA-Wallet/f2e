@@ -3,6 +3,7 @@
     --brand: #968BF4;
     --base: #201E2A;
     --dark: #25294A;
+    --foot: #443750;
     --variant: #4550A6;
     --white: #FFFFFF;
     --linear-brand-c1: #9B84F1;
@@ -15,6 +16,7 @@
     --dark-rgb: 37, 41, 74;
     --variant-rgb: 69, 80, 166;
     --white-rgb: 255, 255, 255;
+    --foot-rgb: 68, 55, 80;
     --linear-brand-c1-rgb: 155, 132, 241;
     --linear-brand-c2-rgb: 136, 150, 252;
     --linear-accessory-c1-rgb: 88, 91, 255;
@@ -41,6 +43,10 @@
     background-color: rgba(var(--dark-rgb), 1) !important;
 }
 
+.bg-foot {
+    background-color: rgba(var(--foot-rgb), 1) !important;
+}
+
 .bg-white {
     background-color: rgba(var(--white-rgb), 1) !important;
 }
@@ -51,6 +57,14 @@
 
 .text-base {
     color: rgba(var(--base-rgb), 1) !important;
+}
+
+.text-dark {
+    color: rgba(var(--dark-rgb), 1) !important;
+}
+
+.text-foot {
+    color: rgba(var(--foot-rgb), 1) !important;
 }
 
 .text-white {
