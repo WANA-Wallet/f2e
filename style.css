@@ -80,10 +80,6 @@
     box-shadow: 2px 5px 5px rgba(var(--bs-black-rgb), 0.5);
 }
 
-.dress-btn {
-    transform: scale(2.0);
-}
-
 .dress img {
     position: absolute;
     display:inline-block;
@@ -98,6 +94,10 @@
 .main-body {
     position: absolute;
     top: 0; right: 0; bottom: 0; left: 0;
+}
+
+.main-body .swiper-slide img{
+    border-radius: 1rem;
 }
 
 .roadmap-box {

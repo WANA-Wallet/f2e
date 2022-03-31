@@ -82,8 +82,8 @@ let swiperArticle = new Swiper(".swiper.article", {
     simulateTouch: true,
     autoplay: false,
     navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
+        nextEl: '.swiper-button-next.article',
+        prevEl: '.swiper-button-prev.article',
     },
     allowTouchMove: true,
     preventClicks: true,
