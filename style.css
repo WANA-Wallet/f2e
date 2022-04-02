@@ -60,7 +60,8 @@
     position: absolute;
     left: 0;
     right: 0;
-    top: calc(100% - 250px);
+    top: calc(100vh - 40%);
+    z-index: 1;
     /*letter-spacing: 0.1rem;*/
     /*transition-duration: 0.4s;*/
 }
@@ -113,11 +114,9 @@
     padding: 0;
     box-shadow: 0 0 0.8rem 0.1rem rgba(255, 255, 255, 0.2);
     border-radius: 2rem;
-    height: 100%;
 }
 
 .card-text{
-    height: 80px;
 }
 
 .article-image {
