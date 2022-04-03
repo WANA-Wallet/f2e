@@ -10,6 +10,8 @@
     --linear-brand-c2: #88A0FC;
     --linear-accessory-c1: #585BFF;
     --linear-accessory-c2: #333473;
+    --linear-magic-c1: #412AC0;
+    --linear-magic-c2: #22185B;
 
     --brand-rgb: 150, 139, 244;
     --base-rgb: 32, 30, 42;
@@ -21,18 +23,12 @@
     --linear-brand-c2-rgb: 136, 150, 252;
     --linear-accessory-c1-rgb: 88, 91, 255;
     --linear-accessory-c2-rgb: 51, 52, 115;
+    --linear-magic-c1-rgb: 65, 42, 192;
+    --linear-magic-c2-rgb: 34, 24, 91;
 }
 
 .bg-brand {
     background-color: rgba(var(--brand-rgb), 1) !important;
-}
-
-.bg-brand-linear {
-    background: linear-gradient(90deg, var(--linear-brand-c2), var(--linear-brand-c1)); !important;
-}
-
-.bg-accessory-linear {
-    background: linear-gradient(0deg, var(--linear-accessory-c1), var(--linear-accessory-c2)); !important;
 }
 
 .bg-base {
@@ -49,6 +45,25 @@
 
 .bg-white {
     background-color: rgba(var(--white-rgb), 1) !important;
+}
+
+.bg-brand-linear {
+    background-image: linear-gradient(90deg, var(--linear-brand-c2), var(--linear-brand-c1)); !important;
+}
+
+.bg-accessory-linear {
+    background-image: linear-gradient(0deg, var(--linear-accessory-c1), var(--linear-accessory-c2)); !important;
+}
+
+.bg-magic-linear {
+    background-image: linear-gradient(to bottom,
+    rgba(var(--base-rgb), 0.5) 0%,
+    rgba(var(--linear-magic-c1-rgb), 0.5) 20%,
+    rgba(var(--linear-magic-c2-rgb), 0.5) 40%,
+    rgba(var(--linear-magic-c2-rgb), 0.5) 60%,
+    rgba(var(--linear-magic-c1-rgb), 0.5) 80%,
+    rgba(var(--base-rgb), 0.5) 100%);
+    !important;
 }
 
 .text-brand {
