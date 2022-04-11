@@ -81,6 +81,10 @@
     box-shadow: 2px 5px 5px rgba(var(--bs-black-rgb), 0.5);
 }
 
+.dress-accessory {
+    border-radius: 1.5rem;
+}
+
 .dress img {
     position: absolute;
     display:inline-block;
@@ -89,7 +93,6 @@
 
 .main-body-box {
     position: relative;
-    /*border: solid 10px white;*/
 }
 
 .main-body {
@@ -120,11 +123,6 @@
 }
 
 .article-image {
-}
-
-.saveplanet {
-    background-color: rgba(var(--base-rgb), 1) !important;
-    text-align: center;
 }
 
 
