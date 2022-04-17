@@ -59,6 +59,15 @@
     }
 }
 
+.main-image {
+    background-image: url('assets/image/main_mobile.png')
+}
+@media (min-width: 992px) {
+    .main-image {
+        background-image: url('assets/image/main_website.png')
+    }
+}
+
 .join-discord-btn {
     position: absolute;
     left: 0;
