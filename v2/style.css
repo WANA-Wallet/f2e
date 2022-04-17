@@ -1,0 +1,142 @@
+@font-face {
+    font-family: Rubik;
+    /*src: url("assets/font/Rubik-Black.ttf");*/
+    font-weight: 999;
+    font-style: normal;
+}
+
+* {
+    font-size: 100%;
+    /*font-family: Rubik, Verdana, sans-serif;*/
+}
+
+.hamburger-list {
+    z-index: 2;
+}
+.hamburger-menu {
+    position: absolute;
+    top: 1.2rem;
+    right: 1.2rem;
+    padding: 1.6rem;
+    border: solid 1px rgba(var(--white-rgb), 0.1);
+    z-index: 1;
+}
+.menu {
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+}
+.footer-menu {
+    font-size: 0.9rem;
+    line-height: 1.45rem;
+}
+@media (min-width: 576px) {
+    .hamburger-menu {
+        top: 1.5rem;
+        right: 1.5rem;
+        padding: 1.8rem;
+    }
+    .menu {
+        font-size: 2.5rem;
+        line-height: 4rem;
+    }
+    .footer-menu {
+        font-size: 1.5em;
+        line-height: 2.4rem;
+    }
+}
+@media (min-width: 768px) {
+    .hamburger-menu {
+        top: 2.2rem;
+        right: 2.2rem;
+        padding: 2.2rem;
+    }
+}
+@media (min-width: 992px) {
+    .hamburger-menu {
+        top: 2.5rem;
+        right: 2.5rem;
+        padding: 2.5rem;
+    }
+}
+
+.join-discord-btn {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: calc(100vh - 40%);
+    z-index: 1;
+}
+
+.mint-coming-soon {
+    padding: 2rem 4rem;
+    box-shadow: 0 0 1rem 0.3rem rgba(255, 255, 255, 0.3);
+    border-radius: 2.2rem;
+}
+
+.mint-progress-bar {
+    border-radius: 6px;
+}
+
+.dress-accessory-box {
+    border-radius: 1.5rem;
+    box-shadow: 2px 5px 5px rgba(var(--bs-black-rgb), 0.5);
+}
+
+.dress-accessory {
+    border-radius: 1.5rem;
+}
+
+.dress img {
+    position: absolute;
+    display:inline-block;
+    height:100%;
+}
+
+.main-body-box {
+    position: relative;
+}
+
+.main-body {
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+}
+
+.main-body .swiper-slide img{
+    border-radius: 1rem;
+}
+
+.roadmap-box {
+
+}
+
+.faq-box {
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.article-card {
+    padding: 0;
+    box-shadow: 0 0 0.8rem 0.1rem rgba(255, 255, 255, 0.2);
+    border-radius: 2rem;
+}
+
+/* extend swiper */
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+    content: '';
+}
+.swiper-button-next:after,
+.swiper-rtl .swiper-button-prev:after {
+    content: '';
+}
+
+/* extend bootstrap */
+.btn-xxl, .btn-group-lg > .btn {
+    padding: 1rem 3.5rem;
+    font-size: 2rem;
+    border-radius: 1.8rem;
+}
+
+.progress {
+    border-radius: 0.35rem;
+}

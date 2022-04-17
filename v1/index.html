@@ -21,7 +21,7 @@
     <script src="../lib/jquery.js"></script>
     <script src="../lib/aos/aos.js"></script>
 </head>
-<body class="h-100 bg-base">
+<body class="v1-theme h-100 bg-base bg-primary">
 
 <!-- 第一部分 header navbar -->
 <nav class="navbar navbar-expand-xl navbar-dark bg-base">
@@ -57,19 +57,21 @@
     </div>
 
     <div class="row d-block d-xl-none">
-        <div class="col-6 col-lg-4 offset-3 offset-lg-4 collapse bg-base py-3 py-sm-5" id="hamburgerMenu">
-            <a href="#" class="navbar-brand">
-                <img src="assets/logo/LOGO-W.png" class="img-fluid" alt="WANA-Logo"/>
-            </a>
-            <ul class="d-flex flex-column list-unstyled menu text-center mt-3 py-3 py-sm-5">
-                <li><a class="nav-link text-white" href="#about">About</a></li>
-                <li><a class="nav-link text-white" href="#roadmap">Roadmap</a></li>
-                <li><a class="nav-link text-white" href="#faq">FAQ</a></li>
-                <li><a class="nav-link disabled" href="#">Team</a></li>
-                <li><a class="nav-link disabled" href="#">Collection</a></li>
-                <li><a class="nav-link disabled" href="#">Mint</a></li>
-                <li><a class="nav-link disabled" href="#">MyWANA</a></li>
-            </ul>
+        <div class="collapse" id="hamburgerMenu">
+            <div class="col-6 col-lg-4 offset-3 offset-lg-4 bg-base py-3 py-sm-5">
+                <a href="#" class="navbar-brand">
+                    <img src="assets/logo/LOGO-W.png" class="img-fluid" alt="WANA-Logo"/>
+                </a>
+                <ul class="d-flex flex-column list-unstyled menu text-center mt-3 py-3 py-sm-5">
+                    <li><a class="nav-link text-white" href="#about">About</a></li>
+                    <li><a class="nav-link text-white" href="#roadmap">Roadmap</a></li>
+                    <li><a class="nav-link text-white" href="#faq">FAQ</a></li>
+                    <li><a class="nav-link disabled" href="#">Team</a></li>
+                    <li><a class="nav-link disabled" href="#">Collection</a></li>
+                    <li><a class="nav-link disabled" href="#">Mint</a></li>
+                    <li><a class="nav-link disabled" href="#">MyWANA</a></li>
+                </ul>
+            </div>
         </div>
 
         <a href="#hamburgerMenu" data-bs-toggle="collapse" data-bs-target="#hamburgerMenu"><span class="navbar-toggler-icon hamburger-menu"></span></a>

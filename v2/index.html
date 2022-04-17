@@ -14,14 +14,87 @@
     <link rel="stylesheet" href="../lib/bootstrap/bootstrap.css">
     <link rel="stylesheet" href="../lib/swiper/swiper-bundle.css">
     <link rel="stylesheet" href="../lib/aos/aos.css">
-    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="../common.css">
     <link rel="stylesheet" href="style.css">
     <script src="../lib/bootstrap/bootstrap.bundle.js"></script>
     <script src="../lib/swiper/swiper-bundle.js"></script>
     <script src="../lib/jquery.js"></script>
     <script src="../lib/aos/aos.js"></script>
 </head>
-<body class="h-100 bg-base">
+<body class="v2-theme h-100 bg-light">
+<nav class="container-fluid d-block d-xl-none navbar navbar-expand-xl navbar-dark bg-cap-trans py-0">
+    <div class="row bg-cap-light hamburger-list">
+        <div class="collapse" id="hamburgerMenu">
+            <div class="col-6 col-lg-4 offset-3 offset-lg-4 py-3 py-sm-5 bg-cap-light">
+                <a href="#" class="navbar-brand">
+                    <img src="assets/logo/WANA_LOGO_banner.png" class="img-fluid" alt="WANA-Logo"/>
+                </a>
+                <ul class="d-flex flex-column list-unstyled menu text-center mt-3 py-3 py-sm-5">
+                    <li><a class="nav-link text-white" href="#about">About</a></li>
+                    <li><a class="nav-link text-white" href="#roadmap">Roadmap</a></li>
+                    <li><a class="nav-link text-white" href="#faq">FAQ</a></li>
+                    <li><a class="nav-link text-white-50 disabled" href="#">Team</a></li>
+                    <li><a class="nav-link text-white-50 disabled" href="#">Collection</a></li>
+                    <li><a class="nav-link text-white-50 disabled" href="#">Mint</a></li>
+                    <li><a class="nav-link text-white-50 disabled" href="#">MyWANA</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <a href="#hamburgerMenu" data-bs-toggle="collapse" data-bs-target="#hamburgerMenu"><span class="navbar-toggler-icon hamburger-menu"></span></a>
+    </div>
+</nav>
+<!-- 主圖 -->
+<div class="container-fluid full-layout bg-full position-relative px-0" style="background-image: url('assets/image/main_website.png')">
+    <nav class="d-none d-xl-block navbar navbar-expand-xl navbar-dark bg-cap-trans px-3">
+        <div class="align-items-center w-100 bg-transparent">
+            <div class="row">
+                <div class="col-3">
+                    <div class="d-flex flex-row">
+                        <a href="#" class="navbar-brand">
+                            <img src="assets/logo/WANA_LOGO.png" height="34" alt="WANA-Logo"/>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="d-flex flex-row">
+                        <div class="d-flex flex-row align-items-center user-select-none">
+                            <a class="nav-link text-white" href="#about">About</a>
+                            <a class="nav-link text-white" href="#roadmap">Roadmap</a>
+                            <a class="nav-link text-white" href="#faq">FAQ</a>
+                            <a class="nav-link text-white-50 disabled" href="#">Team</a>
+                            <a class="nav-link text-white-50 disabled" href="#">Collection</a>
+                            <a class="nav-link text-white-50 disabled" href="#">Mint</a>
+                            <a class="nav-link text-white-50 disabled" href="#">MyWANA</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="d-flex flex-row justify-content-end">
+                        <a class="nav-link text-white" href="https://www.instagram.com/wananft/" target="_blank"><img src="assets/icon/InstagramLogo.svg" height="26" alt="instagram"/></a>
+                        <a class="nav-link text-white" href="https://discord.com/invite/PJv2U32JNJ" target="_blank"><img src="assets/icon/DiscordLogo.svg" height="26" alt="discord"/></a>
+                        <a class="nav-link text-white" href="https://twitter.com/wananft" target="_blank"><img src="assets/icon/TwitterLogo.svg" height="26" alt="twitter"/></a>
+                        <a class="nav-link text-white" href="https://www.facebook.com/wananft" target="_blank"><img src="assets/icon/FacebookLogo.svg" height="26" alt="facebook"/></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+</div>
+
+<!-- Mint Coming soon... -->
+<div class="container d-flex justify-content-center position-relative mv-up-9">
+    <div class="col-10 bg-base mint-coming-soon">
+        <h3 class="text-white h1">0 / 999</h3>
+        <div class="text-white mb-2 h4 py-3">Mint Coming Soon...</div>
+        <div class="progress">
+            <div class="progress-bar mint-progress-bar bg-brand" style="width: 1%"></div>
+        </div>
+    </div>
+</div>
+
+
 </body>
 </html>
 
