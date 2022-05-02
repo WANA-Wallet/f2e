@@ -1,17 +1,57 @@
 @font-face {
-    font-family: Rubik;
-    /*src: url("assets/font/Rubik-Black.ttf");*/
+    font-family: Genju;
+    src: url("assets/font/GenJyuuGothic-Heavy.ttf");
     font-weight: 999;
     font-style: normal;
 }
 
 * {
     font-size: 100%;
-    /*font-family: Rubik, Verdana, sans-serif;*/
+    font-family: Genju, Verdana, sans-serif;
 }
 
-.theme-color {
+.theme-1-text {
+    color: var(--brand);
+    text-shadow:
+            /* -2 */
+            -2px -2px 3px var(--dim),
+            -2px -1px 3px var(--dim),
+            -2px 0 3px var(--dim),
+            -2px +1px 3px var(--dim),
+            -2px +2px 3px var(--dim),
 
+            /* -1 */
+            -1px -2px 3px var(--dim),
+            -1px -1px 3px var(--dim),
+            -1px 0 3px var(--dim),
+            -1px +1px 3px var(--dim),
+            -1px +2px 3px var(--dim),
+
+            /* 0 */
+            0 -2px 3px var(--dim),
+            0 -1px 3px var(--dim),
+            0 0 3px var(--dim),
+            0 +1px 3px var(--dim),
+            0 +2px 3px var(--dim),
+
+            /* +1 */
+            +1px -2px 3px var(--dim),
+            +1px -1px 3px var(--dim),
+            +1px 0 3px var(--dim),
+            +1px +1px 3px var(--dim),
+            +1px +2px 3px var(--dim),
+
+            /* +2 */
+            +2px -2px 3px var(--dim),
+            +2px -1px 3px var(--dim),
+            +2px 0 3px var(--dim),
+            +2px +1px 3px var(--dim),
+            +2px +2px 3px var(--dim);
+}
+
+.theme-2-text {
+    color: var(--brand);
+    border: 5px solid #525690;
 }
 
 .hamburger-list {
@@ -22,7 +62,7 @@
     top: 1.2rem;
     right: 1.2rem;
     padding: 1.6rem;
-    border: solid 1px rgba(var(--white-rgb), 0.1);
+    border: solid 3px rgba(var(--bs-white-rgb), 0.1);
     z-index: 1;
 }
 .menu {
