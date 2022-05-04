@@ -140,7 +140,6 @@
     position: absolute;
     left: 0;
     right: 0;
-    top: calc(100vh - 40%);
     z-index: 1;
 }
 

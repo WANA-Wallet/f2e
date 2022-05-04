@@ -9,6 +9,7 @@
     --base: #201E2A;
     /* --cap */
     /* --cap-light */
+    /* --cap-lighter */
     /* --dim */
     /* --gloomy */
     --dark: #25294A;
@@ -25,6 +26,7 @@
     --base-rgb: 32, 30, 42;
     /* --cap-rgb */
     /* --cap-light-rgb */
+    /* --cap-lighter-rgb */
     /* --dim-rgb */
     /* --gloomy-rgb */
     --dark-rgb: 37, 41, 74;
@@ -44,14 +46,15 @@
     --brand: #67F7BB;
     --base: #8d95fa;
     --cap: #5644AF;
-    --cap-light: #7179d7;
+    --cap-light: #7179D7;
+    --cap-lighter: #7F88F2;
     --dim: #525689;
     --gloomy: #323D3D;
     /*--dark: #25294A;*/
     /*--foot: #443750;*/
     /*--variant: #4550A6;*/
-    /*--linear-brand-c1: #9B84F1;*/
-    /*--linear-brand-c2: #88A0FC;*/
+    --linear-brand-c1: #9B84F1;
+    --linear-brand-c2: #88A0FC;
     /*--linear-accessory-c1: #585BFF;*/
     /*--linear-accessory-c2: #333473;*/
     /*--linear-magic-c1: #412AC0;*/
@@ -61,13 +64,14 @@
     --base-rgb: 141, 149, 250;
     --cap-rgb: 86, 68, 175;
     --cap-light-rgb: 113, 121, 215;
+    --cap-lighter-rgb: 127, 136, 242;
     --dim-rgb: 82, 86, 137;
     --gloomy-rgb: 50, 61, 61;
     /*--dark-rgb: 37, 41, 74;*/
     /*--variant-rgb: 69, 80, 166;*/
     /*--foot-rgb: 68, 55, 80;*/
-    /*--linear-brand-c1-rgb: 155, 132, 241;*/
-    /*--linear-brand-c2-rgb: 136, 150, 252;*/
+    --linear-brand-c1-rgb: 155, 132, 241;
+    --linear-brand-c2-rgb: 136, 150, 252;
     /*--linear-accessory-c1-rgb: 88, 91, 255;*/
     /*--linear-accessory-c2-rgb: 51, 52, 115;*/
     /*--linear-magic-c1-rgb: 65, 42, 192;*/
@@ -96,6 +100,10 @@
 
 .bg-cap-light {
     background-color: rgba(var(--cap-light-rgb), 1) !important;
+}
+
+.bg-cap-lighter {
+    background-color: rgba(var(--cap-lighter-rgb), 1) !important;
 }
 
 .bg-dim {
@@ -153,8 +161,12 @@
     color: rgba(var(--cap-rgb), 0.6) !important;
 }
 
-.text-cap-trans {
-    color: rgba(var(--cap-light), 1) !important;
+.text-cap-light {
+    color: rgba(var(--cap-light-rgb), 1) !important;
+}
+
+.text-cap-lighter {
+    color: rgba(var(--cap-lighter-rgb), 1) !important;
 }
 
 .text-dim {
@@ -1558,6 +1570,9 @@ p.banner-layout {
     .character-img {
         border-radius: 3rem;
         height: 300px;
+    }
+    .character > .swiper-wrapper{
+        margin-left: -5%;
     }
 }
 @media (min-width: 1400px) {
