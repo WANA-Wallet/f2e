@@ -46,7 +46,7 @@
     --cap: #5644AF;
     --cap-light: #7179d7;
     --dim: #525689;
-    /*--gloomy: #525689;*/
+    --gloomy: #323D3D;
     /*--dark: #25294A;*/
     /*--foot: #443750;*/
     /*--variant: #4550A6;*/
@@ -62,7 +62,7 @@
     --cap-rgb: 86, 68, 175;
     --cap-light-rgb: 113, 121, 215;
     --dim-rgb: 82, 86, 137;
-    /*--gloomy-rgb: 82, 86, 137;*/
+    --gloomy-rgb: 50, 61, 61;
     /*--dark-rgb: 37, 41, 74;*/
     /*--variant-rgb: 69, 80, 166;*/
     /*--foot-rgb: 68, 55, 80;*/
@@ -74,7 +74,7 @@
     /*--linear-magic-c2-rgb: 34, 24, 91;*/
 
     /* override bootstrap */
-    --bs-light: #000000;
+    --bs-light: #FCFCFC;
     --bs-light-rgb: 252, 252, 252;
 }
 

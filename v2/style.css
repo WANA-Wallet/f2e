@@ -10,38 +10,33 @@
     font-family: Genju, Verdana, sans-serif;
 }
 
-.theme-1-text {
+.effect-text-brand {
     color: var(--brand);
     text-shadow:
-            /* -2 */
             -2px -2px 3px var(--dim),
             -2px -1px 3px var(--dim),
             -2px 0 3px var(--dim),
             -2px +1px 3px var(--dim),
             -2px +2px 3px var(--dim),
 
-            /* -1 */
             -1px -2px 3px var(--dim),
             -1px -1px 3px var(--dim),
             -1px 0 3px var(--dim),
             -1px +1px 3px var(--dim),
             -1px +2px 3px var(--dim),
 
-            /* 0 */
             0 -2px 3px var(--dim),
             0 -1px 3px var(--dim),
             0 0 3px var(--dim),
             0 +1px 3px var(--dim),
             0 +2px 3px var(--dim),
 
-            /* +1 */
             +1px -2px 3px var(--dim),
             +1px -1px 3px var(--dim),
             +1px 0 3px var(--dim),
             +1px +1px 3px var(--dim),
             +1px +2px 3px var(--dim),
 
-            /* +2 */
             +2px -2px 3px var(--dim),
             +2px -1px 3px var(--dim),
             +2px 0 3px var(--dim),
@@ -49,9 +44,38 @@
             +2px +2px 3px var(--dim);
 }
 
-.theme-2-text {
-    color: var(--brand);
-    border: 5px solid #525690;
+.effect-text-light {
+    color: var(--bs-light);
+    text-shadow:
+            -2px -2px 3px var(--gloomy),
+            -2px -1px 3px var(--gloomy),
+            -2px 0 3px var(--gloomy),
+            -2px +1px 3px var(--gloomy),
+            -2px +2px 3px var(--gloomy),
+
+            -1px -2px 3px var(--gloomy),
+            -1px -1px 3px var(--gloomy),
+            -1px 0 3px var(--gloomy),
+            -1px +1px 3px var(--gloomy),
+            -1px +2px 3px var(--gloomy),
+
+            0 -2px 3px var(--gloomy),
+            0 -1px 3px var(--gloomy),
+            0 0 3px var(--gloomy),
+            0 +1px 3px var(--gloomy),
+            0 +2px 3px var(--gloomy),
+
+            +1px -2px 3px var(--gloomy),
+            +1px -1px 3px var(--gloomy),
+            +1px 0 3px var(--gloomy),
+            +1px +1px 3px var(--gloomy),
+            +1px +2px 3px var(--gloomy),
+
+            +2px -2px 3px var(--gloomy),
+            +2px -1px 3px var(--gloomy),
+            +2px 0 3px var(--gloomy),
+            +2px +1px 3px var(--gloomy),
+            +2px +2px 3px var(--gloomy);
 }
 
 .hamburger-list {
