@@ -51,7 +51,7 @@
     --dim: #525689;
     --gloomy: #323D3D;
     /*--dark: #25294A;*/
-    /*--foot: #443750;*/
+    --foot: #D6CFFD;
     /*--variant: #4550A6;*/
     --linear-brand-c1: #9B84F1;
     --linear-brand-c2: #88A0FC;
@@ -69,7 +69,7 @@
     --gloomy-rgb: 50, 61, 61;
     /*--dark-rgb: 37, 41, 74;*/
     /*--variant-rgb: 69, 80, 166;*/
-    /*--foot-rgb: 68, 55, 80;*/
+    --foot-rgb: 214, 207, 253;
     --linear-brand-c1-rgb: 155, 132, 241;
     --linear-brand-c2-rgb: 136, 150, 252;
     /*--linear-accessory-c1-rgb: 88, 91, 255;*/

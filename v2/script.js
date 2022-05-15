@@ -1,4 +1,4 @@
-const swiper = new Swiper('.swiper.character', {
+const swiperCharacter = new Swiper('.swiper.character', {
     direction: 'horizontal',
     pagination: {
         el: '.swiper-pagination',
@@ -44,4 +44,39 @@ const swiper = new Swiper('.swiper.character', {
         disableOnInteraction: false,
         pauseOnMouseEnter: true,
     },
+});
+
+<!-- 第二三部分 文章滑動區塊 swiper -->
+let swiperArticle = new Swiper(".swiper.article", {
+    breakpoints: {
+        360: {
+            slidesPerView: 1,
+            spaceBetween: 100,
+        },
+        576: {
+            slidesPerView: 2,
+            spaceBetween: 50,
+        },
+        768: {
+            slidesPerView: 3,
+            spaceBetween: 50,
+        },
+    },
+    autoHeight: false,
+    resizeObserver: true,
+    speed: 1000,
+    allowSlideNext: true,
+    allowSlidePrev: true,
+    centeredSlides: false,
+    centerInsufficientSlides: false,
+    loop: false,
+    grabCursor: false,
+    simulateTouch: true,
+    autoplay: false,
+    navigation: {
+        nextEl: '.swiper-button-next.article',
+        prevEl: '.swiper-button-prev.article',
+    },
+    allowTouchMove: true,
+    preventClicks: true,
 });
