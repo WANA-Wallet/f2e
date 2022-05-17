@@ -1,6 +1,73 @@
-<!-- 換裝區 swiper -->
-let eyesIndex = 0;
-let swiperDressEyesList = new Swiper(".swiper.dress-eyes", {
+new Swiper(".swiper.dress-head", {
+    slidesPerView: 1,
+    spaceBetween: 50,
+    autoHeight: true,
+    resizeObserver: true,
+    speed: 200,
+    allowSlideNext: true,
+    allowSlidePrev: true,
+    centeredSlides: false,
+    centerInsufficientSlides: true,
+    centeredSlidesBounds: true,
+    loop: true,
+    grabCursor: false,
+    simulateTouch: false,
+    autoplay: false,
+    navigation: {
+        nextEl: '.swiper-button-next.dress-head',
+        prevEl: '.swiper-button-prev.dress-head',
+    },
+    allowTouchMove: true,
+    preventClicks: true,
+});
+
+new Swiper(".swiper.dress-body", {
+    slidesPerView: 1,
+    spaceBetween: 50,
+    autoHeight: true,
+    resizeObserver: true,
+    speed: 200,
+    allowSlideNext: true,
+    allowSlidePrev: true,
+    centeredSlides: false,
+    centerInsufficientSlides: true,
+    centeredSlidesBounds: true,
+    loop: true,
+    grabCursor: false,
+    simulateTouch: false,
+    autoplay: false,
+    navigation: {
+        nextEl: '.swiper-button-next.dress-body',
+        prevEl: '.swiper-button-prev.dress-body',
+    },
+    allowTouchMove: true,
+    preventClicks: true,
+});
+
+new Swiper(".swiper.dress-bg", {
+    slidesPerView: 1,
+    spaceBetween: 50,
+    autoHeight: true,
+    resizeObserver: true,
+    speed: 200,
+    allowSlideNext: true,
+    allowSlidePrev: true,
+    centeredSlides: false,
+    centerInsufficientSlides: true,
+    centeredSlidesBounds: true,
+    loop: true,
+    grabCursor: false,
+    simulateTouch: false,
+    autoplay: false,
+    navigation: {
+        nextEl: '.swiper-button-next.dress-bg',
+        prevEl: '.swiper-button-prev.dress-bg',
+    },
+    allowTouchMove: true,
+    preventClicks: true,
+});
+
+new Swiper(".swiper.dress-eyes", {
     slidesPerView: 1,
     spaceBetween: 50,
     autoHeight: true,
@@ -24,14 +91,30 @@ let swiperDressEyesList = new Swiper(".swiper.dress-eyes", {
 });
 
 
-// swiperDressEyesList.forEach(swiperDressEyes => {
-//     swiperDressEyes.on('slideChange', function (e) {
-//         eyesIndex = swiperDressEyes.realIndex;
-//         console.log(eyesIndex);
-//     });
-// })
+new Swiper(".swiper.dress-mouth", {
+    slidesPerView: 1,
+    spaceBetween: 50,
+    autoHeight: true,
+    resizeObserver: true,
+    speed: 200,
+    allowSlideNext: true,
+    allowSlidePrev: true,
+    centeredSlides: false,
+    centerInsufficientSlides: true,
+    centeredSlidesBounds: true,
+    loop: true,
+    grabCursor: false,
+    simulateTouch: false,
+    autoplay: false,
+    navigation: {
+        nextEl: '.swiper-button-next.dress-mouth',
+        prevEl: '.swiper-button-prev.dress-mouth',
+    },
+    allowTouchMove: true,
+    preventClicks: true,
+});
 
-let swiperDressClothesList = new Swiper(".swiper.dress-clothes", {
+new Swiper(".swiper.dress-clothes", {
     slidesPerView: 1,
     spaceBetween: 50,
     autoHeight: true,
@@ -49,52 +132,6 @@ let swiperDressClothesList = new Swiper(".swiper.dress-clothes", {
     navigation: {
         nextEl: '.swiper-button-next.dress-clothes',
         prevEl: '.swiper-button-prev.dress-clothes',
-    },
-    allowTouchMove: true,
-    preventClicks: true,
-});
-
-let swiperDressHairList = new Swiper(".swiper.dress-hair", {
-    slidesPerView: 1,
-    spaceBetween: 50,
-    autoHeight: true,
-    resizeObserver: true,
-    speed: 200,
-    allowSlideNext: true,
-    allowSlidePrev: true,
-    centeredSlides: false,
-    centerInsufficientSlides: true,
-    centeredSlidesBounds: true,
-    loop: true,
-    grabCursor: false,
-    simulateTouch: false,
-    autoplay: false,
-    navigation: {
-        nextEl: '.swiper-button-next.dress-hair',
-        prevEl: '.swiper-button-prev.dress-hair',
-    },
-    allowTouchMove: true,
-    preventClicks: true,
-});
-
-let swiperDressBackgroundList = new Swiper(".swiper.dress-background", {
-    slidesPerView: 1,
-    spaceBetween: 50,
-    autoHeight: true,
-    resizeObserver: true,
-    speed: 200,
-    allowSlideNext: true,
-    allowSlidePrev: true,
-    centeredSlides: false,
-    centerInsufficientSlides: true,
-    centeredSlidesBounds: true,
-    loop: true,
-    grabCursor: false,
-    simulateTouch: false,
-    autoplay: false,
-    navigation: {
-        nextEl: '.swiper-button-next.dress-background',
-        prevEl: '.swiper-button-prev.dress-background',
     },
     allowTouchMove: true,
     preventClicks: true,
