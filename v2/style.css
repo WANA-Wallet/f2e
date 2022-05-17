@@ -154,7 +154,6 @@
 }
 
 .dress-accessory-box {
-    border-radius: 1.5rem;
     box-shadow: 2px 5px 5px rgba(var(--bs-black-rgb), 0.5);
 }
 
@@ -198,6 +197,20 @@
 .swiper-button-next:after,
 .swiper-rtl .swiper-button-prev:after {
     content: '';
+}
+
+.dress-accessory-box .swiper-button-prev, .dress-accessory-box .swiper-button-next {
+    opacity: 25%;
+}
+@media (min-width: 576px) {
+    .dress-accessory-box .swiper-button-prev, .dress-accessory-box .swiper-button-next {
+        opacity: 75%;
+    }
+}
+@media (min-width: 992px) {
+    .dress-accessory-box .swiper-button-prev, .dress-accessory-box .swiper-button-next {
+        opacity: 100%;
+    }
 }
 
 /* extend bootstrap */

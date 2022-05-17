@@ -223,6 +223,9 @@
 .radius-5 {
     border-radius: 5rem;
 }
+.radius-40pct {
+    border-radius: 40%;
+}
 @media (min-width: 576px) {
     .radius-sm-1 {
         border-radius: 1rem;
@@ -241,6 +244,9 @@
     }
     .radius-sm-5 {
         border-radius: 5rem;
+    }
+    .radius-sm-40pct {
+        border-radius: 40%;
     }
 }
 @media (min-width: 768px) {
@@ -262,6 +268,9 @@
     .radius-md-5 {
         border-radius: 5rem;
     }
+    .radius-md-40pct {
+        border-radius: 40%;
+    }
 }
 @media (min-width: 992px) {
     .radius-lg-1 {
@@ -281,6 +290,9 @@
     }
     .radius-lg-5 {
         border-radius: 5rem;
+    }
+    .radius-lg-40pct {
+        border-radius: 40%;
     }
 }
 @media (min-width: 1200px) {
@@ -302,6 +314,9 @@
     .radius-xl-5 {
         border-radius: 5rem;
     }
+    .radius-xl-40pct {
+        border-radius: 40%;
+    }
 }
 @media (min-width: 1400px) {
     .radius-xxl-1 {
@@ -321,6 +336,9 @@
     }
     .radius-xxl-5 {
         border-radius: 5rem;
+    }
+    .radius-xxl-40pct {
+        border-radius: 40%;
     }
 }
 
@@ -2073,6 +2091,12 @@ p.banner-layout {
     .scale-xxl-5x0 {
         transform: scale(5.0);
     }
+}
+
+/* Bootstrap */
+.py-6 {
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important;
 }
 
 
