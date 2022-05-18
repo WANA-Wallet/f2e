@@ -212,14 +212,3 @@
         opacity: 100%;
     }
 }
-
-/* extend bootstrap */
-.btn-xxl, .btn-group-lg > .btn {
-    padding: 1rem 3.5rem;
-    font-size: 2rem;
-    border-radius: 1.8rem;
-}
-
-.progress {
-    border-radius: 0.35rem;
-}
