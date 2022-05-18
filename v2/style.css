@@ -204,7 +204,7 @@
 }
 @media (min-width: 576px) {
     .dress-accessory-box .swiper-button-prev, .dress-accessory-box .swiper-button-next {
-        opacity: 75%;
+        opacity: 40%;
     }
 }
 @media (min-width: 992px) {
