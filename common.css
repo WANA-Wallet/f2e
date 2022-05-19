@@ -2053,9 +2053,15 @@ p.banner-layout {
     }
 }
 
-.btn-xxl, .btn-group-lg > .btn {
+.btn-xl, .btn-group-xl > .btn {
     padding: 1rem 3.5rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    border-radius: 1.8rem;
+}
+
+.btn-xxl, .btn-group-xxl > .btn {
+    padding: 1rem 3.5rem;
+    font-size: 1.5rem;
     border-radius: 1.8rem;
 }
 
