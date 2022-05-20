@@ -1,5 +1,5 @@
 new Swiper(".swiper.dress-head", {
-    lazy: true,
+    preloadImages: false,
     slidesPerView: 1,
     spaceBetween: 50,
     autoHeight: true,
@@ -23,7 +23,7 @@ new Swiper(".swiper.dress-head", {
 });
 
 new Swiper(".swiper.dress-body", {
-    lazy: true,
+    preloadImages: false,
     slidesPerView: 1,
     spaceBetween: 50,
     autoHeight: true,
@@ -47,7 +47,7 @@ new Swiper(".swiper.dress-body", {
 });
 
 new Swiper(".swiper.dress-bg", {
-    lazy: true,
+    preloadImages: false,
     slidesPerView: 1,
     spaceBetween: 50,
     autoHeight: true,
@@ -71,7 +71,7 @@ new Swiper(".swiper.dress-bg", {
 });
 
 new Swiper(".swiper.dress-eyes", {
-    lazy: true,
+    preloadImages: false,
     slidesPerView: 1,
     spaceBetween: 50,
     autoHeight: true,
@@ -96,7 +96,7 @@ new Swiper(".swiper.dress-eyes", {
 
 
 new Swiper(".swiper.dress-mouth", {
-    lazy: true,
+    preloadImages: false,
     slidesPerView: 1,
     spaceBetween: 50,
     autoHeight: true,
@@ -120,7 +120,7 @@ new Swiper(".swiper.dress-mouth", {
 });
 
 new Swiper(".swiper.dress-clothes", {
-    lazy: true,
+    preloadImages: false,
     slidesPerView: 1,
     spaceBetween: 50,
     autoHeight: true,
