@@ -141,7 +141,7 @@
     position: absolute;
     left: 0;
     right: 0;
-    top: 42vh;
+    top: 44vh;
     z-index: 1;
 }
 @media (min-width: 992px) {
