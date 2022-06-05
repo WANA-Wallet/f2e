@@ -130,7 +130,7 @@
 .main-image {
     background-image: url('assets/image/main_mobile.png')
 }
-@media (min-width: 992px) {
+@media (min-width: 576px) {
     .main-image {
         background-image: url('assets/image/main_website.png')
     }
@@ -144,9 +144,7 @@
 }
 
 .mint-coming-soon {
-    padding: 2rem 4rem;
     box-shadow: 0 0 1rem 0.3rem rgba(255, 255, 255, 0.3);
-    border-radius: 2.2rem;
 }
 
 .mint-progress-bar {
