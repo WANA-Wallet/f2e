@@ -130,17 +130,24 @@
 .main-image {
     background-image: url('assets/image/main_mobile.png')
 }
-@media (min-width: 576px) {
+@media (min-width: 992px) {
     .main-image {
         background-image: url('assets/image/main_website.png')
     }
 }
 
-.join-discord-btn {
+/* 避免擋到主圖 */
+.main-btn {
     position: absolute;
     left: 0;
     right: 0;
+    top: 42vh;
     z-index: 1;
+}
+@media (min-width: 992px) {
+    .main-btn {
+        top: 38vh;
+    }
 }
 
 .mint-coming-soon {
