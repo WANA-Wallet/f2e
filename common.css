@@ -141,11 +141,11 @@ img {
 }
 
 .bg-brand-linear {
-    background-image: linear-gradient(90deg, var(--linear-brand-c2), var(--linear-brand-c1)); !important;
+    background-image: linear-gradient(90deg, var(--linear-brand-c2), var(--linear-brand-c1)) !important;
 }
 
 .bg-accessory-linear {
-    background-image: linear-gradient(0deg, var(--linear-accessory-c1), var(--linear-accessory-c2)); !important;
+    background-image: linear-gradient(0deg, var(--linear-accessory-c1), var(--linear-accessory-c2)) !important;
 }
 
 .bg-magic-linear {
@@ -155,7 +155,7 @@ img {
     rgba(var(--linear-magic-c2-rgb), 0.5) 40%,
     rgba(var(--linear-magic-c2-rgb), 0.5) 60%,
     rgba(var(--linear-magic-c1-rgb), 0.5) 80%,
-    rgba(var(--base-rgb), 0.5) 100%);
+    rgba(var(--base-rgb), 0.5) 100%)
     !important;
 }
 
@@ -365,7 +365,7 @@ img {
 }
 
 .full-layout {
-    height: calc(100% - var(--preverse-height)); /* 滿版高度為100% 扣 header或footer高度 */
+    height: calc(100vh - var(--preverse-height)); /* 滿版高度為100% 扣 header或footer高度 */
     width: 100%; /* 寬度滿版 */
 }
 
@@ -2087,16 +2087,16 @@ p.banner-layout {
 
 @keyframes linearBackground {
     0% {
-        background-image: linear-gradient(0deg, var(--linear-hover-c1), var(--linear-hover-c2)); !important;
+        background-image: linear-gradient(0deg, var(--linear-hover-c1), var(--linear-hover-c2)) !important;
     }
     33% {
-        background-image: linear-gradient(90deg, var(--linear-hover-c1), var(--linear-hover-c2)); !important;
+        background-image: linear-gradient(90deg, var(--linear-hover-c1), var(--linear-hover-c2)) !important;
     }
     66% {
-        background-image: linear-gradient(180deg, var(--linear-hover-c1), var(--linear-hover-c2)); !important;
+        background-image: linear-gradient(180deg, var(--linear-hover-c1), var(--linear-hover-c2)) !important;
     }
     100% {
-        background-image: linear-gradient(270deg, var(--linear-hover-c1), var(--linear-hover-c2)); !important;
+        background-image: linear-gradient(270deg, var(--linear-hover-c1), var(--linear-hover-c2)) !important;
     }
 }
 
@@ -2143,18 +2143,18 @@ p.banner-layout {
 
 /* Fading animation */
 .fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 0}
+    from {opacity: .4}
+    to {opacity: 0}
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+    from {opacity: .4}
+    to {opacity: 1}
 }
